@@ -1,0 +1,1226 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_5e277adc9f1dba16c9ad807bc3b60cd7 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_5e277adc9f1dba16c9ad807bc3b60cd7" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_5e277adc9f1dba16c9ad807bc3b60cd7 = L.map(
+                "map_5e277adc9f1dba16c9ad807bc3b60cd7",
+                {
+                    center: [39.8283, -98.5795],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 4,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_c9964fa2ca4260c40079b9a15fd60136 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_c9964fa2ca4260c40079b9a15fd60136.addTo(map_5e277adc9f1dba16c9ad807bc3b60cd7);
+        
+    
+            var marker_4dec6f2c8a23bd164ec1f696fa9a435d = L.marker(
+                [36.0525993, -95.7908195],
+                {
+}
+            ).addTo(map_5e277adc9f1dba16c9ad807bc3b60cd7);
+        
+    
+            var icon_bc6f8a2794f747c64a5a87e3ec73c68e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fb544fac80eac12c1f3fc8e2035f0e13 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_526794f89695a0bd5ff719349e5f2a21 = $(`<div id="html_526794f89695a0bd5ff719349e5f2a21" style="width: 100.0%; height: 100.0%;">Broken Arrow: 28 fast chargers</div>`)[0];
+                popup_fb544fac80eac12c1f3fc8e2035f0e13.setContent(html_526794f89695a0bd5ff719349e5f2a21);
+            
+        
+
+        marker_4dec6f2c8a23bd164ec1f696fa9a435d.bindPopup(popup_fb544fac80eac12c1f3fc8e2035f0e13)
+        ;
+
+        
+    
+    
+                marker_4dec6f2c8a23bd164ec1f696fa9a435d.setIcon(icon_bc6f8a2794f747c64a5a87e3ec73c68e);
+            
+    
+            var marker_954961df7059f8cfec8f8664c34c04aa = L.marker(
+                [35.0512159, -97.9370036],
+                {
+}
+            ).addTo(map_5e277adc9f1dba16c9ad807bc3b60cd7);
+        
+    
+            var icon_7e89c2880ed3163a628f85a79c779d5b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2d03b439dc377389fcbaa5957a60a6a4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e34cdd9e2100611e4c072ccc38bb071f = $(`<div id="html_e34cdd9e2100611e4c072ccc38bb071f" style="width: 100.0%; height: 100.0%;">Chickasha: 28 fast chargers</div>`)[0];
+                popup_2d03b439dc377389fcbaa5957a60a6a4.setContent(html_e34cdd9e2100611e4c072ccc38bb071f);
+            
+        
+
+        marker_954961df7059f8cfec8f8664c34c04aa.bindPopup(popup_2d03b439dc377389fcbaa5957a60a6a4)
+        ;
+
+        
+    
+    
+                marker_954961df7059f8cfec8f8664c34c04aa.setIcon(icon_7e89c2880ed3163a628f85a79c779d5b);
+            
+    
+            var marker_473b3fab27d16d4941a6e57c670ddd56 = L.marker(
+                [38.9695316, -77.3859479],
+                {
+}
+            ).addTo(map_5e277adc9f1dba16c9ad807bc3b60cd7);
+        
+    
+            var icon_79b809b8671d23b02d8a848178f74d03 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e77108ff6717838480190973db093d0e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8e4966e7a5f457ec9eb3dfeafa38b3e7 = $(`<div id="html_8e4966e7a5f457ec9eb3dfeafa38b3e7" style="width: 100.0%; height: 100.0%;">Herndon: 27 fast chargers</div>`)[0];
+                popup_e77108ff6717838480190973db093d0e.setContent(html_8e4966e7a5f457ec9eb3dfeafa38b3e7);
+            
+        
+
+        marker_473b3fab27d16d4941a6e57c670ddd56.bindPopup(popup_e77108ff6717838480190973db093d0e)
+        ;
+
+        
+    
+    
+                marker_473b3fab27d16d4941a6e57c670ddd56.setIcon(icon_79b809b8671d23b02d8a848178f74d03);
+            
+    
+            var marker_29fb87e13ec93ef21c40855270d26b57 = L.marker(
+                [32.7947731, -116.962526],
+                {
+}
+            ).addTo(map_5e277adc9f1dba16c9ad807bc3b60cd7);
+        
+    
+            var icon_47c7494cfae6cfc4e7cd08e4e4c4fa6f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5c45695695267eeb214897f3f893f60f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_15611e8b24ac19874491be572d2c0797 = $(`<div id="html_15611e8b24ac19874491be572d2c0797" style="width: 100.0%; height: 100.0%;">El Cajon: 26 fast chargers</div>`)[0];
+                popup_5c45695695267eeb214897f3f893f60f.setContent(html_15611e8b24ac19874491be572d2c0797);
+            
+        
+
+        marker_29fb87e13ec93ef21c40855270d26b57.bindPopup(popup_5c45695695267eeb214897f3f893f60f)
+        ;
+
+        
+    
+    
+                marker_29fb87e13ec93ef21c40855270d26b57.setIcon(icon_47c7494cfae6cfc4e7cd08e4e4c4fa6f);
+            
+    
+            var marker_4c3f93b47d278b81cbb1476e33ca7e5c = L.marker(
+                [36.06523, -119.0167679],
+                {
+}
+            ).addTo(map_5e277adc9f1dba16c9ad807bc3b60cd7);
+        
+    
+            var icon_2a87a1413d7f0ee59bd1af7014e96f8c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c40d7c9d8ea548dd66292286f3564116 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_af6273a880e6782c42452f87aa2fb533 = $(`<div id="html_af6273a880e6782c42452f87aa2fb533" style="width: 100.0%; height: 100.0%;">Porterville: 26 fast chargers</div>`)[0];
+                popup_c40d7c9d8ea548dd66292286f3564116.setContent(html_af6273a880e6782c42452f87aa2fb533);
+            
+        
+
+        marker_4c3f93b47d278b81cbb1476e33ca7e5c.bindPopup(popup_c40d7c9d8ea548dd66292286f3564116)
+        ;
+
+        
+    
+    
+                marker_4c3f93b47d278b81cbb1476e33ca7e5c.setIcon(icon_2a87a1413d7f0ee59bd1af7014e96f8c);
+            
+    
+            var marker_0e11c720090a17358746bd842db2df27 = L.marker(
+                [38.9997621, -77.02403709829767],
+                {
+}
+            ).addTo(map_5e277adc9f1dba16c9ad807bc3b60cd7);
+        
+    
+            var icon_10ea173de6595e75d93b501bc3616728 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e7ad6e621dee2429665a3b567e7823cb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b3885a083f067241706036c4824b7326 = $(`<div id="html_b3885a083f067241706036c4824b7326" style="width: 100.0%; height: 100.0%;">Silver Spring: 23 fast chargers</div>`)[0];
+                popup_e7ad6e621dee2429665a3b567e7823cb.setContent(html_b3885a083f067241706036c4824b7326);
+            
+        
+
+        marker_0e11c720090a17358746bd842db2df27.bindPopup(popup_e7ad6e621dee2429665a3b567e7823cb)
+        ;
+
+        
+    
+    
+                marker_0e11c720090a17358746bd842db2df27.setIcon(icon_10ea173de6595e75d93b501bc3616728);
+            
+    
+            var marker_9d83672f5bdb69a1a1befb603002363e = L.marker(
+                [34.9334981, -95.7697934],
+                {
+}
+            ).addTo(map_5e277adc9f1dba16c9ad807bc3b60cd7);
+        
+    
+            var icon_7203075ec83df2bdbbf9a19aa600a8c5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fba499bc74df05a5e35e349219302f7c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_735934124d68b0cd8010dc7b9c80552b = $(`<div id="html_735934124d68b0cd8010dc7b9c80552b" style="width: 100.0%; height: 100.0%;">McAlester: 21 fast chargers</div>`)[0];
+                popup_fba499bc74df05a5e35e349219302f7c.setContent(html_735934124d68b0cd8010dc7b9c80552b);
+            
+        
+
+        marker_9d83672f5bdb69a1a1befb603002363e.bindPopup(popup_fba499bc74df05a5e35e349219302f7c)
+        ;
+
+        
+    
+    
+                marker_9d83672f5bdb69a1a1befb603002363e.setIcon(icon_7203075ec83df2bdbbf9a19aa600a8c5);
+            
+    
+            var marker_ac8551fb66e91808a2cb902ffa61babb = L.marker(
+                [35.6571367, -97.4649038],
+                {
+}
+            ).addTo(map_5e277adc9f1dba16c9ad807bc3b60cd7);
+        
+    
+            var icon_76881a81f6aeb62538464ad96cf573fb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4a1004695a031baffff71087c3466ccb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1eaf7c54d3c71808342a0e6d10e67570 = $(`<div id="html_1eaf7c54d3c71808342a0e6d10e67570" style="width: 100.0%; height: 100.0%;">Edmond: 20 fast chargers</div>`)[0];
+                popup_4a1004695a031baffff71087c3466ccb.setContent(html_1eaf7c54d3c71808342a0e6d10e67570);
+            
+        
+
+        marker_ac8551fb66e91808a2cb902ffa61babb.bindPopup(popup_4a1004695a031baffff71087c3466ccb)
+        ;
+
+        
+    
+    
+                marker_ac8551fb66e91808a2cb902ffa61babb.setIcon(icon_76881a81f6aeb62538464ad96cf573fb);
+            
+    
+            var marker_41a52fa41ad3a9eade4d0ef9e2238e64 = L.marker(
+                [36.1394339, -96.1100025],
+                {
+}
+            ).addTo(map_5e277adc9f1dba16c9ad807bc3b60cd7);
+        
+    
+            var icon_59e4a56518f9267744c25201331f4747 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f505a7787e9f9cf9d28572b57943c738 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fde8de44e37e883bb7d0e09dfd27a63e = $(`<div id="html_fde8de44e37e883bb7d0e09dfd27a63e" style="width: 100.0%; height: 100.0%;">Sand Springs: 20 fast chargers</div>`)[0];
+                popup_f505a7787e9f9cf9d28572b57943c738.setContent(html_fde8de44e37e883bb7d0e09dfd27a63e);
+            
+        
+
+        marker_41a52fa41ad3a9eade4d0ef9e2238e64.bindPopup(popup_f505a7787e9f9cf9d28572b57943c738)
+        ;
+
+        
+    
+    
+                marker_41a52fa41ad3a9eade4d0ef9e2238e64.setIcon(icon_59e4a56518f9267744c25201331f4747);
+            
+    
+            var marker_6d2906afbad90deb6f4a12edb4b26301 = L.marker(
+                [35.8156121, -101.9104355],
+                {
+}
+            ).addTo(map_5e277adc9f1dba16c9ad807bc3b60cd7);
+        
+    
+            var icon_8b02e0dbd398e91486081e08f166b583 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_32458103fab2ed955b1a04d1d64a4008 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0951a95c0baf5f85ceeaf3713c4d277a = $(`<div id="html_0951a95c0baf5f85ceeaf3713c4d277a" style="width: 100.0%; height: 100.0%;">Moore: 20 fast chargers</div>`)[0];
+                popup_32458103fab2ed955b1a04d1d64a4008.setContent(html_0951a95c0baf5f85ceeaf3713c4d277a);
+            
+        
+
+        marker_6d2906afbad90deb6f4a12edb4b26301.bindPopup(popup_32458103fab2ed955b1a04d1d64a4008)
+        ;
+
+        
+    
+    
+                marker_6d2906afbad90deb6f4a12edb4b26301.setIcon(icon_8b02e0dbd398e91486081e08f166b583);
+            
+    
+            var marker_09b160431a2a7a122846cab0f6b93afe = L.marker(
+                [34.2011078, -118.5978087],
+                {
+}
+            ).addTo(map_5e277adc9f1dba16c9ad807bc3b60cd7);
+        
+    
+            var icon_8739ec67d9f754581d9962bd02505db4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_075d78b11f0c7cd575f556fd2870ee08 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b6df1d77a8a3a2ac6462790b602a1764 = $(`<div id="html_b6df1d77a8a3a2ac6462790b602a1764" style="width: 100.0%; height: 100.0%;">Canoga Park: 18 fast chargers</div>`)[0];
+                popup_075d78b11f0c7cd575f556fd2870ee08.setContent(html_b6df1d77a8a3a2ac6462790b602a1764);
+            
+        
+
+        marker_09b160431a2a7a122846cab0f6b93afe.bindPopup(popup_075d78b11f0c7cd575f556fd2870ee08)
+        ;
+
+        
+    
+    
+                marker_09b160431a2a7a122846cab0f6b93afe.setIcon(icon_8739ec67d9f754581d9962bd02505db4);
+            
+    
+            var marker_744f1fd67cdeb78622ccfb08e57c2260 = L.marker(
+                [35.1321878, -118.4489739],
+                {
+}
+            ).addTo(map_5e277adc9f1dba16c9ad807bc3b60cd7);
+        
+    
+            var icon_dbe02d9c9829a8165077760d95fef924 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f569fc13a5f8511eed3be7433d64b977 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ee94362c36b383594cc388befac1f4f3 = $(`<div id="html_ee94362c36b383594cc388befac1f4f3" style="width: 100.0%; height: 100.0%;">Tehachapi: 18 fast chargers</div>`)[0];
+                popup_f569fc13a5f8511eed3be7433d64b977.setContent(html_ee94362c36b383594cc388befac1f4f3);
+            
+        
+
+        marker_744f1fd67cdeb78622ccfb08e57c2260.bindPopup(popup_f569fc13a5f8511eed3be7433d64b977)
+        ;
+
+        
+    
+    
+                marker_744f1fd67cdeb78622ccfb08e57c2260.setIcon(icon_dbe02d9c9829a8165077760d95fef924);
+            
+    
+            var marker_636b0fd9315612083e98ecfa630ffb15 = L.marker(
+                [33.34883, -112.49123],
+                {
+}
+            ).addTo(map_5e277adc9f1dba16c9ad807bc3b60cd7);
+        
+    
+            var icon_5fef441e98d72cb2f232c800a9f3492e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ae49ba6ca149398b38b19c8e9bef5c04 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1f3025305a4b8aa18ee4f0b169c436a3 = $(`<div id="html_1f3025305a4b8aa18ee4f0b169c436a3" style="width: 100.0%; height: 100.0%;">Maricopa: 17 fast chargers</div>`)[0];
+                popup_ae49ba6ca149398b38b19c8e9bef5c04.setContent(html_1f3025305a4b8aa18ee4f0b169c436a3);
+            
+        
+
+        marker_636b0fd9315612083e98ecfa630ffb15.bindPopup(popup_ae49ba6ca149398b38b19c8e9bef5c04)
+        ;
+
+        
+    
+    
+                marker_636b0fd9315612083e98ecfa630ffb15.setIcon(icon_5fef441e98d72cb2f232c800a9f3492e);
+            
+    
+            var marker_c7451f74607d10844ef865ded03e543b = L.marker(
+                [33.560832, -117.210656],
+                {
+}
+            ).addTo(map_5e277adc9f1dba16c9ad807bc3b60cd7);
+        
+    
+            var icon_c9d6c2e563acbc740dad49bc905fbc48 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_471f608fdca86f725e73db5e41867711 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_444ca7b82edf3c0e5caf5ce427d7c800 = $(`<div id="html_444ca7b82edf3c0e5caf5ce427d7c800" style="width: 100.0%; height: 100.0%;">Murrieta: 17 fast chargers</div>`)[0];
+                popup_471f608fdca86f725e73db5e41867711.setContent(html_444ca7b82edf3c0e5caf5ce427d7c800);
+            
+        
+
+        marker_c7451f74607d10844ef865ded03e543b.bindPopup(popup_471f608fdca86f725e73db5e41867711)
+        ;
+
+        
+    
+    
+                marker_c7451f74607d10844ef865ded03e543b.setIcon(icon_c9d6c2e563acbc740dad49bc905fbc48);
+            
+    
+            var marker_a5e00f285397a96659f5ffe808db20fb = L.marker(
+                [44.0751086, -88.2144321],
+                {
+}
+            ).addTo(map_5e277adc9f1dba16c9ad807bc3b60cd7);
+        
+    
+            var icon_22396f3bc8d66e69a993946a6d21433c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6d261847c0f6feb8dd69cceb0ba68973 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d2981f9e074cf2155f83efed959fa7be = $(`<div id="html_d2981f9e074cf2155f83efed959fa7be" style="width: 100.0%; height: 100.0%;">Calumet: 16 fast chargers</div>`)[0];
+                popup_6d261847c0f6feb8dd69cceb0ba68973.setContent(html_d2981f9e074cf2155f83efed959fa7be);
+            
+        
+
+        marker_a5e00f285397a96659f5ffe808db20fb.bindPopup(popup_6d261847c0f6feb8dd69cceb0ba68973)
+        ;
+
+        
+    
+    
+                marker_a5e00f285397a96659f5ffe808db20fb.setIcon(icon_22396f3bc8d66e69a993946a6d21433c);
+            
+    
+            var marker_1a4b2d63a157aeacba5caa55f8400f71 = L.marker(
+                [43.4136539, -116.2367421],
+                {
+}
+            ).addTo(map_5e277adc9f1dba16c9ad807bc3b60cd7);
+        
+    
+            var icon_ce05e2aa75f00434818abf1cddd192be = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f2239f5d044bf61b7ddee9daff3985c4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_220292803627473dfd79517a63923087 = $(`<div id="html_220292803627473dfd79517a63923087" style="width: 100.0%; height: 100.0%;">Ada: 16 fast chargers</div>`)[0];
+                popup_f2239f5d044bf61b7ddee9daff3985c4.setContent(html_220292803627473dfd79517a63923087);
+            
+        
+
+        marker_1a4b2d63a157aeacba5caa55f8400f71.bindPopup(popup_f2239f5d044bf61b7ddee9daff3985c4)
+        ;
+
+        
+    
+    
+                marker_1a4b2d63a157aeacba5caa55f8400f71.setIcon(icon_ce05e2aa75f00434818abf1cddd192be);
+            
+    
+            var marker_a42056c81116851402b578ec5c87a4fa = L.marker(
+                [39.8005505, -105.0811573],
+                {
+}
+            ).addTo(map_5e277adc9f1dba16c9ad807bc3b60cd7);
+        
+    
+            var icon_25e2fc9d6a3140b0c4331351e5a5a328 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_91d0692322649b615b431c8155ab5e4c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_53fb500a6c032fb164d853abf0bf8fd4 = $(`<div id="html_53fb500a6c032fb164d853abf0bf8fd4" style="width: 100.0%; height: 100.0%;">Arvada: 16 fast chargers</div>`)[0];
+                popup_91d0692322649b615b431c8155ab5e4c.setContent(html_53fb500a6c032fb164d853abf0bf8fd4);
+            
+        
+
+        marker_a42056c81116851402b578ec5c87a4fa.bindPopup(popup_91d0692322649b615b431c8155ab5e4c)
+        ;
+
+        
+    
+    
+                marker_a42056c81116851402b578ec5c87a4fa.setIcon(icon_25e2fc9d6a3140b0c4331351e5a5a328);
+            
+    
+            var marker_ea1c95aac16da44311a280e8fb785daa = L.marker(
+                [34.6086854, -98.3903305],
+                {
+}
+            ).addTo(map_5e277adc9f1dba16c9ad807bc3b60cd7);
+        
+    
+            var icon_b71d1e49c42af0ec79978b57d116ec06 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_491866fe062701fb22e6a0620f1e308e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1db7f9721ad4d048986809c3dc362d7d = $(`<div id="html_1db7f9721ad4d048986809c3dc362d7d" style="width: 100.0%; height: 100.0%;">Lawton: 16 fast chargers</div>`)[0];
+                popup_491866fe062701fb22e6a0620f1e308e.setContent(html_1db7f9721ad4d048986809c3dc362d7d);
+            
+        
+
+        marker_ea1c95aac16da44311a280e8fb785daa.bindPopup(popup_491866fe062701fb22e6a0620f1e308e)
+        ;
+
+        
+    
+    
+                marker_ea1c95aac16da44311a280e8fb785daa.setIcon(icon_b71d1e49c42af0ec79978b57d116ec06);
+            
+    
+            var marker_5554890c484df2453caf57b3f9480092 = L.marker(
+                [35.91537, -94.969956],
+                {
+}
+            ).addTo(map_5e277adc9f1dba16c9ad807bc3b60cd7);
+        
+    
+            var icon_cc8c82749dcfb648d317b91b6bd2c588 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_adb517d5560b48448c83eb753f3c8475 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a63a01b0eb1e9b21e9cc61832b911dab = $(`<div id="html_a63a01b0eb1e9b21e9cc61832b911dab" style="width: 100.0%; height: 100.0%;">Tahlequah: 16 fast chargers</div>`)[0];
+                popup_adb517d5560b48448c83eb753f3c8475.setContent(html_a63a01b0eb1e9b21e9cc61832b911dab);
+            
+        
+
+        marker_5554890c484df2453caf57b3f9480092.bindPopup(popup_adb517d5560b48448c83eb753f3c8475)
+        ;
+
+        
+    
+    
+                marker_5554890c484df2453caf57b3f9480092.setIcon(icon_cc8c82749dcfb648d317b91b6bd2c588);
+            
+    
+            var marker_6390338e0f9c6fde3aa0117bd03d8fc4 = L.marker(
+                [36.2659698, -95.8548557],
+                {
+}
+            ).addTo(map_5e277adc9f1dba16c9ad807bc3b60cd7);
+        
+    
+            var icon_456a7778e7b695f7b3812727280bf9a6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ca28f3606561df5ec9f3849ca71f2a65 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a3c73d77b49a34ac012f5ef2c81ad441 = $(`<div id="html_a3c73d77b49a34ac012f5ef2c81ad441" style="width: 100.0%; height: 100.0%;">Owasso: 16 fast chargers</div>`)[0];
+                popup_ca28f3606561df5ec9f3849ca71f2a65.setContent(html_a3c73d77b49a34ac012f5ef2c81ad441);
+            
+        
+
+        marker_6390338e0f9c6fde3aa0117bd03d8fc4.bindPopup(popup_ca28f3606561df5ec9f3849ca71f2a65)
+        ;
+
+        
+    
+    
+                marker_6390338e0f9c6fde3aa0117bd03d8fc4.setIcon(icon_456a7778e7b695f7b3812727280bf9a6);
+            
+    
+            var marker_d09c9ae1a774f22d04a5573ec8601681 = L.marker(
+                [39.9403995, -105.05208],
+                {
+}
+            ).addTo(map_5e277adc9f1dba16c9ad807bc3b60cd7);
+        
+    
+            var icon_9a32e2e1d36db4cb66a8b0da92f50578 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_013a843231ea8b67ed0822ca1a279e84 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5abe041ea1c2db659301745f38282a5b = $(`<div id="html_5abe041ea1c2db659301745f38282a5b" style="width: 100.0%; height: 100.0%;">Broomfield: 15 fast chargers</div>`)[0];
+                popup_013a843231ea8b67ed0822ca1a279e84.setContent(html_5abe041ea1c2db659301745f38282a5b);
+            
+        
+
+        marker_d09c9ae1a774f22d04a5573ec8601681.bindPopup(popup_013a843231ea8b67ed0822ca1a279e84)
+        ;
+
+        
+    
+    
+                marker_d09c9ae1a774f22d04a5573ec8601681.setIcon(icon_9a32e2e1d36db4cb66a8b0da92f50578);
+            
+    
+            var marker_c824c3354735a57378fe966a36f0225c = L.marker(
+                [45.428679, -122.497174],
+                {
+}
+            ).addTo(map_5e277adc9f1dba16c9ad807bc3b60cd7);
+        
+    
+            var icon_5f45b818cb987c36525a176a35003c23 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_373059f2686540ce97850cab21c20cae = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_84e20e7f188bd89aac396880b12bcb0e = $(`<div id="html_84e20e7f188bd89aac396880b12bcb0e" style="width: 100.0%; height: 100.0%;">Happy Valley: 14 fast chargers</div>`)[0];
+                popup_373059f2686540ce97850cab21c20cae.setContent(html_84e20e7f188bd89aac396880b12bcb0e);
+            
+        
+
+        marker_c824c3354735a57378fe966a36f0225c.bindPopup(popup_373059f2686540ce97850cab21c20cae)
+        ;
+
+        
+    
+    
+                marker_c824c3354735a57378fe966a36f0225c.setIcon(icon_5f45b818cb987c36525a176a35003c23);
+            
+    
+            var marker_211586d495c4c12d0a8ef3e5f8cfdd27 = L.marker(
+                [38.9339799, -84.3715286],
+                {
+}
+            ).addTo(map_5e277adc9f1dba16c9ad807bc3b60cd7);
+        
+    
+            var icon_0d7a2f1949c98a1f6fb6139804e60381 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d9c8ed741796091d027e81da7e905be3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_50de41ae3579dd87f175f31513d50c07 = $(`<div id="html_50de41ae3579dd87f175f31513d50c07" style="width: 100.0%; height: 100.0%;">Campbell: 14 fast chargers</div>`)[0];
+                popup_d9c8ed741796091d027e81da7e905be3.setContent(html_50de41ae3579dd87f175f31513d50c07);
+            
+        
+
+        marker_211586d495c4c12d0a8ef3e5f8cfdd27.bindPopup(popup_d9c8ed741796091d027e81da7e905be3)
+        ;
+
+        
+    
+    
+                marker_211586d495c4c12d0a8ef3e5f8cfdd27.setIcon(icon_0d7a2f1949c98a1f6fb6139804e60381);
+            
+    
+            var marker_403180d06b0d807a6a89682c9034402d = L.marker(
+                [36.7421089, -95.9528877],
+                {
+}
+            ).addTo(map_5e277adc9f1dba16c9ad807bc3b60cd7);
+        
+    
+            var icon_de9f80f29bf5166b93cb365647c4c144 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c30d0bda8cb21d8903522aa9a62ae587 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b7d97a18101ae4c6fc0e1861b8e65685 = $(`<div id="html_b7d97a18101ae4c6fc0e1861b8e65685" style="width: 100.0%; height: 100.0%;">Bartlesville: 13 fast chargers</div>`)[0];
+                popup_c30d0bda8cb21d8903522aa9a62ae587.setContent(html_b7d97a18101ae4c6fc0e1861b8e65685);
+            
+        
+
+        marker_403180d06b0d807a6a89682c9034402d.bindPopup(popup_c30d0bda8cb21d8903522aa9a62ae587)
+        ;
+
+        
+    
+    
+                marker_403180d06b0d807a6a89682c9034402d.setIcon(icon_de9f80f29bf5166b93cb365647c4c144);
+            
+    
+            var marker_38583476a900416679299a5f8c0b2a61 = L.marker(
+                [38.885219, -77.44867724838636],
+                {
+}
+            ).addTo(map_5e277adc9f1dba16c9ad807bc3b60cd7);
+        
+    
+            var icon_aa9363ac1742f6fc5bb79f616ca7512f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_62e372539244c54ef7da980a23bcc5f8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_68cc3a76dafebddea0e4f26543072740 = $(`<div id="html_68cc3a76dafebddea0e4f26543072740" style="width: 100.0%; height: 100.0%;">Chantilly: 13 fast chargers</div>`)[0];
+                popup_62e372539244c54ef7da980a23bcc5f8.setContent(html_68cc3a76dafebddea0e4f26543072740);
+            
+        
+
+        marker_38583476a900416679299a5f8c0b2a61.bindPopup(popup_62e372539244c54ef7da980a23bcc5f8)
+        ;
+
+        
+    
+    
+                marker_38583476a900416679299a5f8c0b2a61.setIcon(icon_aa9363ac1742f6fc5bb79f616ca7512f);
+            
+    
+            var marker_04b97e7b2c9a5e41ee51b3109de35042 = L.marker(
+                [45.5228939, -122.989827],
+                {
+}
+            ).addTo(map_5e277adc9f1dba16c9ad807bc3b60cd7);
+        
+    
+            var icon_a156b01263a22fc0e3239dc902b95c18 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_62e0b442db82ab344f9474d7ee75ae61 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_970fa1316feda07efe7d07d9e302cc0c = $(`<div id="html_970fa1316feda07efe7d07d9e302cc0c" style="width: 100.0%; height: 100.0%;">Hillsboro: 13 fast chargers</div>`)[0];
+                popup_62e0b442db82ab344f9474d7ee75ae61.setContent(html_970fa1316feda07efe7d07d9e302cc0c);
+            
+        
+
+        marker_04b97e7b2c9a5e41ee51b3109de35042.bindPopup(popup_62e0b442db82ab344f9474d7ee75ae61)
+        ;
+
+        
+    
+    
+                marker_04b97e7b2c9a5e41ee51b3109de35042.setIcon(icon_a156b01263a22fc0e3239dc902b95c18);
+            
+    
+            var marker_fe3bc71c7cbd9084866ab0889438f390 = L.marker(
+                [40.0405675, -75.49278910211503],
+                {
+}
+            ).addTo(map_5e277adc9f1dba16c9ad807bc3b60cd7);
+        
+    
+            var icon_c5b6eac5fdef03925e3deecb19e86a01 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_aaf97afac77d44df98a642662c66390f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ac1491b7a4828bb7d4261c01b4b88625 = $(`<div id="html_ac1491b7a4828bb7d4261c01b4b88625" style="width: 100.0%; height: 100.0%;">Paoli: 12 fast chargers</div>`)[0];
+                popup_aaf97afac77d44df98a642662c66390f.setContent(html_ac1491b7a4828bb7d4261c01b4b88625);
+            
+        
+
+        marker_fe3bc71c7cbd9084866ab0889438f390.bindPopup(popup_aaf97afac77d44df98a642662c66390f)
+        ;
+
+        
+    
+    
+                marker_fe3bc71c7cbd9084866ab0889438f390.setIcon(icon_c5b6eac5fdef03925e3deecb19e86a01);
+            
+    
+            var marker_538858189a60bd0eb302d818a9a94a78 = L.marker(
+                [32.0869699, -100.318889],
+                {
+}
+            ).addTo(map_5e277adc9f1dba16c9ad807bc3b60cd7);
+        
+    
+            var icon_da69f728b13ba79dab62250e221d36d7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ed163e8531b8357e3a8436db97087b65 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_30af3b49fbf8a197a2dbd51f5a7425d6 = $(`<div id="html_30af3b49fbf8a197a2dbd51f5a7425d6" style="width: 100.0%; height: 100.0%;">Blackwell: 12 fast chargers</div>`)[0];
+                popup_ed163e8531b8357e3a8436db97087b65.setContent(html_30af3b49fbf8a197a2dbd51f5a7425d6);
+            
+        
+
+        marker_538858189a60bd0eb302d818a9a94a78.bindPopup(popup_ed163e8531b8357e3a8436db97087b65)
+        ;
+
+        
+    
+    
+                marker_538858189a60bd0eb302d818a9a94a78.setIcon(icon_da69f728b13ba79dab62250e221d36d7);
+            
+    
+            var marker_aea4942745c75758a068e82b5f701062 = L.marker(
+                [35.9542216, -95.5636238],
+                {
+}
+            ).addTo(map_5e277adc9f1dba16c9ad807bc3b60cd7);
+        
+    
+            var icon_8330bbf3112d12a0bed40da66014b314 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7cf6c8ced1cb42aa99da6e89de8bf5e2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c3695cada7c22b6f14631dbd5d2f3124 = $(`<div id="html_c3695cada7c22b6f14631dbd5d2f3124" style="width: 100.0%; height: 100.0%;">Wagoner: 12 fast chargers</div>`)[0];
+                popup_7cf6c8ced1cb42aa99da6e89de8bf5e2.setContent(html_c3695cada7c22b6f14631dbd5d2f3124);
+            
+        
+
+        marker_aea4942745c75758a068e82b5f701062.bindPopup(popup_7cf6c8ced1cb42aa99da6e89de8bf5e2)
+        ;
+
+        
+    
+    
+                marker_aea4942745c75758a068e82b5f701062.setIcon(icon_8330bbf3112d12a0bed40da66014b314);
+            
+    
+            var marker_29f7320fe9865c725d40c8eafb8569b3 = L.marker(
+                [36.374499, -99.2455382],
+                {
+}
+            ).addTo(map_5e277adc9f1dba16c9ad807bc3b60cd7);
+        
+    
+            var icon_554549d47318ac0e9b212a2fbdcbc196 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4ba31b20943b895a988efddd580f1139 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_383f0faeccd193c129985f6d8e1ef79c = $(`<div id="html_383f0faeccd193c129985f6d8e1ef79c" style="width: 100.0%; height: 100.0%;">Woodward: 12 fast chargers</div>`)[0];
+                popup_4ba31b20943b895a988efddd580f1139.setContent(html_383f0faeccd193c129985f6d8e1ef79c);
+            
+        
+
+        marker_29f7320fe9865c725d40c8eafb8569b3.bindPopup(popup_4ba31b20943b895a988efddd580f1139)
+        ;
+
+        
+    
+    
+                marker_29f7320fe9865c725d40c8eafb8569b3.setIcon(icon_554549d47318ac0e9b212a2fbdcbc196);
+            
+</script>
+</html>
