@@ -32,7 +32,7 @@ This project uses real-world EV charging station data to:
 ## Getting Started
 1. Open `ml_driven_tesla_expansion.ipynb` in **Google Colab** or **Jupyter Notebook**.
 2. Upload the dataset file: `EV_Charging_Stations_Feb82024.xlsx`.  
-   *(You can download it from the U.S. Department of Energy or use the version included if available.)*
+   *(You can download it from the U.S. Department of Energy or download it on Kaggel.com. It is not included due to property rights.)*
 
 ---
 
